@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'css/estilo1.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Bienvenido a Mi Página</h1>
+        <div>
+            <img src="{{devil}}" id="devil" onclick="location.href='devil'">
+            <img src="{{resident}}" id="resident" onclick="location.href='resident'">
+            <img src="{{elden}}" id="elden" onclick="location.href='elden'">
+        </div>
+    </div>
+</body>
+</html>

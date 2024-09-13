@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'css/estilo2.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <h1>{{Nombre}}</h1>
+        <div>
+        <img src="{{Juego}}" id="ima">
+        <h2>Descripción: {{desc}}</h2>
+        <h2>Valoración: {{valo}}</h2>
+    <button type="button" onclick="location.href='/'">Volver</button>
+    </div>
+</body>
+</html>

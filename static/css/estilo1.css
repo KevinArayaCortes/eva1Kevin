@@ -1,0 +1,15 @@
+body{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+#devil,#elden,#resident{
+    width: 300px;
+}
